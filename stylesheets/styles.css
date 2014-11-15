@@ -120,41 +120,53 @@ body {
 .menubar {
 	position:fixed;
 	top:0px;
-	height: 30px;
+	height: 50px;
 	width:100%;
 	background-color:black;
+	text-align:center;
 }
 #logo {
-	margin-left:auto;
-	margin-right:auto;
+	text-align:center;
+	top:0px;
+	height:100%;
+
 }
 .footer {
 	position:fixed;
 	bottom:0px;
-	height:80px;
+	height:30px;
 	width:100%;
 	background-color:black;
 
 }
-.nav ul {
-	left:10px;
-	vertical-align:left;
+.footer p {
+	float:left;
+	color:rgb(224, 224, 224);
+	margin-left:10px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 0.75em;
+}
+.footer .nav ul {
+	float:right;
+	margin-right:10px;
+	margin-top:7px;
 }
 
-.nav ul li {
+.footer .nav ul li {
 	display:inline;
-	padding-left:10px;
-  	padding-right:10px;
+	padding-left:0.5em;
+  	padding-right:0.5em;
+  	padding-bottom:5px;
 }
-.nav ul li a {
-	font-size:50px;
-  	color:white;
-}
-.footer .nav ul li a i {
-	font-size:30px;
-  	color:white;
-}
-.fa .fa-instagram {
-	color: white;
-	font-size:50px;
-}
+.footer .nav ul li a {
+	font-size:1em;
+  	color:rgb(224, 224, 224);
+  	text-decoration:none;
+  	text-transform:uppercase;
+  	font-family:'Open Sans', sans-serif;
+ }
+.footer .nav ul li a:hover{
+	color:white;
+} 
+
