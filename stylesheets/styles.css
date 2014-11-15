@@ -13,7 +13,7 @@ body {
 	position: fixed;
 	background-color: rgba(220, 220, 220, 0.5);
 	width: 100% !important;
-	height: 120px !important;
+	height: 100px !important;
 	top: 30px;
 	left: 0px;
 	margin: 0px;
@@ -22,9 +22,9 @@ body {
 
 .filterbox {
 	position: absolute;
-	top: 25px;
-	height: 80px;
-	left: 5px;
+	top: 20px;
+	height: 70px;
+	left: 15px;
 	width: 10%;
 	min-width: 150px;
 	background-color: rgba(255, 255, 255, 0.7);
@@ -34,7 +34,7 @@ body {
 .tag_area {
 	position: absolute;
 	top: 15px;
-	height: 100px;
+	height: 70px;
 	left: 200px;
 	width: 85%;
 	padding: 0px 10px;
@@ -43,8 +43,9 @@ body {
 }
 
 .tags {
+	text-align: center;
 	top: 10px;
-	padding: 5px 5%;
+	padding: 5px 3%;
 	margin: 20px 1%;
 	background-color: rgba(0, 150, 220, 1);
 	border: 1px solid rgba(250, 250, 250, 1);
@@ -55,4 +56,75 @@ body {
 	text-decoration: none;
 	color: rgba(250, 250, 250, 1);
 	display: inline;
+}
+
+.stories div{
+	/*background-image:url(~~~~~~~~~~~)*/
+	background-repeat:center;
+	background-attachment:center;
+	background-position:fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size:cover;
+	width:100%;
+	/*height:~~~~~~~~~~~~*/
+	text-align:center;
+	font-family:'Open sans',Helvetica,Arial,sans-serif;
+}
+
+.title {
+	
+}
+
+.tldr {
+	
+}
+
+#story1 {
+	background-image:url('https://ununsplash.imgix.net/photo-1415226620463-aedee27159c5?q=75&fm=jpg&s=a455a083c2fcff54c2127af43cdcacc5');
+}
+
+#story2 {
+	background-image:url('http://timedotcom.files.wordpress.com/2014/09/hong-kong-protests-6.jpg?w=1680');
+}
+
+#story3 {
+	/*background-image:url(~~~~~~~~~~~);*/
+}
+
+#story4 {
+	/*background-image:url(~~~~~~~~~~~);*/
+}
+
+#story5 {
+	/*background-image:url(~~~~~~~~~~~);*/
+}
+
+#story6 {
+	/*background-image:url(~~~~~~~~~~~);*/
+}
+
+.menubar {
+	position:fixed;
+	top:0px;
+	height: 30px;
+	width:100%;
+	background-color:black;
+}
+.footer {
+	position:fixed;
+	bottom:0px;
+	height:80px;
+	width:100%;
+	background-color:black;
+
+}
+.nav {
+	display:inline;
+	position:fixed;
+	bottom:10px;
+	left:10px;
+	width:20%;
+	vertical-align:left;
 }
