@@ -120,11 +120,25 @@ body {
 	background-color:black;
 
 }
-.nav {
-	display:inline;
-	position:fixed;
-	bottom:10px;
+.nav ul {
 	left:10px;
-	width:20%;
 	vertical-align:left;
+}
+
+.nav ul li {
+	display:inline;
+	padding-left:10px;
+  	padding-right:10px;
+}
+.nav ul li a {
+	font-size:50px;
+  	color:white;
+}
+.footer .nav ul li a i {
+	font-size:30px;
+  	color:white;
+}
+.fa .fa-instagram {
+	color: white;
+	font-size:50px;
 }
