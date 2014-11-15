@@ -70,10 +70,10 @@ body {
 	color:white;
 	vertical-align:middle;
 	padding:0px;
-	border-top:10px solid rgba(102,102,102,1);
-	border-bottom:10px solid rgba(102,102,102,1);
+	margin:0px;
+	border-top:2px solid white;
+	border-bottom:2px solid white;
 }
-
 
 .title {
 	font-size:3em;
@@ -87,34 +87,38 @@ body {
 	margin:0px;
 }
 
+.newstext {
+	display:none;
+}
+
 #story1 {
 	background-image:url('https://ununsplash.imgix.net/photo-1415226620463-aedee27159c5?q=75&fm=jpg&s=a455a083c2fcff54c2127af43cdcacc5');
-	height:300px;
+	min-height:300px;
 }
 
 #story2 {
 	background-image:url('http://timedotcom.files.wordpress.com/2014/09/hong-kong-protests-6.jpg?w=1680');
-	height:100px;
+	min-height:100px;
 }
 
 #story3 {
 	background-image:url('http://www.vosizneias.com/wp-content/uploads/2012/09/Obama-United-Nations_sham.jpg');
-	height:500px;
+	min-height:500px;
 }
 
 #story4 {
 	background-image:url('http://upload.wikimedia.org/wikipedia/commons/a/a5/PFLP-group-1969.jpg');
-	height:200px;
+	min-height:200px;
 }
 
 #story5 {
 	background-image:url('http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/2/10/1392050404364/Pancreatic-cancer-cells-014.jpg');
-	height:100px;
+	min-height:100px;
 }
 
 #story6 {
 	background-image:url('http://www.who.int/csr/disease/ebola/global_ebolaoutbreakrisk_20140818-1.png?ua=1');
-	height:200px;
+	min-height:200px;
 }
 
 .menubar {
@@ -124,6 +128,7 @@ body {
 	width:100%;
 	background-color:black;
 }
+
 #logo {
 	margin-left:auto;
 	margin-right:auto;
