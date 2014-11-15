@@ -10,7 +10,32 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link type="text/css" rel="stylesheet" href="stylesheets/styles.css">
-	</head>
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  
+  		<script>
+  			 $(function() {
+				$( ".tags" ).click(function() {
+					$(this).css("background-color", "rgba(0, 150, 220, 1)");
+					$(this).css("border-color", "rgba(0, 150, 220, 1)");
+					$(this).css("color", "white");
+					$(".clear_button").show();
+				})
+			 });
+			 
+			 $(function() {
+				$( ".clear_button" ).click(function() {
+					$(".tags").css("background-color", "rgba(0, 150, 220, 0)");
+					$(".tags").css("border-color", "rgba(0, 150, 220, 1)");
+					$(".tags").css("color", "rgba(0, 150, 220, 1)");
+					$(".clear_button").hide();
+				})
+			 });
+		</script>
+		
+		
+		
+  	</head>
 	
 	<body>
 
@@ -34,19 +59,20 @@
 			<div class="tag_area">
 			<center>
 				<div class="row1_tags">
-					<a href="#" class="tags">World</a>
-					<a href="#" class="tags">World</a>
-					<a href="#" class="tags">World</a>
-					<a href="#" class="tags">World</a>
-					<a href="#" class="tags">World</a>
+					<li class="tags">World</li>
+					<li class="tags">World</li>
+					<li class="tags">World</li>
+					<li class="tags">World</li>
+					<li class="tags">World</li>
 				</div>
 				<div class="row2_tags">
-					<a href="#" class="tags">World</a>
-					<a href="#" class="tags">World</a>
-					<a href="#" class="tags">World</a>
-					<a href="#" class="tags">World</a>
-					<a href="#" class="tags">World</a>
+					<li class="tags">World</li>
+					<li class="tags">World</li>
+					<li class="tags">World</li>
+					<li class="tags">World</li>
+					<li class="tags">World</li>
 				</div>
+				<a class="clear_button"><img src="resources/icons/clear-black.png" width="20px" /></a>
 			</center>
 			</div>
 		</div>
@@ -118,6 +144,6 @@
 			</div>
 		</div>
 		<!-- POOJAS TERRITORY ^^^^-->
-
+		
 </body>
 </html>
