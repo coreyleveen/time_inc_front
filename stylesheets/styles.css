@@ -44,3 +44,27 @@
 #story6 {
 	/*background-image:url(~~~~~~~~~~~);*/
 }
+
+.menubar {
+	position:fixed;
+	top:0px;
+	height: 30px;
+	width:100%;
+	background-color:black;
+}
+.footer {
+	position:fixed;
+	bottom:0px;
+	height:80px;
+	width:100%;
+	background-color:black;
+
+}
+.nav {
+	display:inline;
+	position:fixed;
+	bottom:10px;
+	left:10px;
+	width:20%;
+	vertical-align:left;
+}
