@@ -1,3 +1,59 @@
+body {
+	background-color: #FFFFFF;
+	font-family: "Helvetica-Neue", Helvetica, sans-serif;
+	font-size: 0.7em;
+	font-weight: 200;
+}
+
+.tagbar {
+	position: fixed;
+	background-color: rgba(220, 220, 220, 0.5);
+	width: 100% !important;
+	height: 100px !important;
+	top: 30px;
+	left: 0px;
+	margin: 0px;
+	padding: 5px;
+}
+
+.filterbox {
+	position: absolute;
+	top: 20px;
+	height: 70px;
+	left: 15px;
+	width: 10%;
+	min-width: 150px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 0px 10px;
+}
+
+.tag_area {
+	position: absolute;
+	top: 15px;
+	height: 70px;
+	left: 200px;
+	width: 85%;
+	padding: 0px 10px;
+	/*border: 2px solid red;*/
+	line-height: 3.4em;
+}
+
+.tags {
+	text-align: center;
+	top: 10px;
+	padding: 5px 3%;
+	margin: 20px 1%;
+	background-color: rgba(0, 150, 220, 1);
+	border: 1px solid rgba(250, 250, 250, 1);
+	border-radius: 4px;
+	font-family: "Helvetica-Neue", Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: 200;
+	text-decoration: none;
+	color: rgba(250, 250, 250, 1);
+	display: inline;
+}
+
 .stories div{
 	/*background-image:url(~~~~~~~~~~~)*/
 	background-repeat:center;
@@ -67,6 +123,10 @@
 	height: 30px;
 	width:100%;
 	background-color:black;
+}
+#logo {
+	margin-left:auto;
+	margin-right:auto;
 }
 .footer {
 	position:fixed;
